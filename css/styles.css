@@ -1,0 +1,136 @@
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #434455;
+  background-color: #FFF;
+}
+a{
+  text-decoration: none;
+}
+ul, ol{
+  list-style: none;
+}
+
+/* ==== HEADER ====*/
+.logo {
+  font-weight: 700;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.nav-link:hover, 
+.nav-link:focus{
+  color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.address-link {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.address-link:hover, 
+.address-link:focus{
+  color: #404bbf;
+}
+
+/* ==== HERO ====*/
+.section-hero{
+  background: #2e2f42;
+}
+.section-hero h1{
+  font-size: 56px;
+  line-height: 1.07143;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #fff;
+}
+.section-hero button{
+  background: #4d5ae5;
+  font-family: inherit;
+}
+.section-hero button:hover,
+.section-hero button:focus{
+  background: #404bbf;
+}
+
+/* ==== STRENGTHS ====*/
+.section-strengths h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.section-strengths {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* ==== OUR TEAM ====*/
+.section-our-team{
+  background: #f4f4fd;
+}
+.section-our-team h2{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team-card{
+  background: #fff;
+}
+.our-team-card h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-team-card p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+/* ==== FOOTER ====*/
+footer{
+  background: #2e2f42;
+}
+.logo-footer{
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.16667;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.logo-footer-part{
+  color: #4d5ae5;
+}
+footer p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
