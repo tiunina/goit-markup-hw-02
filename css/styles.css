@@ -15,7 +15,7 @@ ul, ol{
   font-weight: 700;
   font-family: "Raleway", sans-serif;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
@@ -49,20 +49,27 @@ ul, ol{
   color: #404bbf;
 }
 
+
 /* ==== HERO ====*/
 .section-hero{
   background: #2e2f42;
 }
-.section-hero h1{
+.section-hero-title{
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
-.section-hero button{
+.hero-button{
+  font-weight: 500;
   background: #4d5ae5;
   font-family: inherit;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
 }
 .section-hero button:hover,
 .section-hero button:focus{
@@ -70,14 +77,14 @@ ul, ol{
 }
 
 /* ==== STRENGTHS ====*/
-.section-strengths h3{
+.section-strengths-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.section-strengths {
+.section-strengths-p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -87,18 +94,19 @@ ul, ol{
 .section-our-team{
   background: #f4f4fd;
 }
-.section-our-team h2{
+.our-team-top-title{
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 .our-team-card{
   background: #fff;
 }
-.our-team-card h3{
+.our-team-title{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -106,29 +114,53 @@ ul, ol{
   text-align: center;
   color: #2e2f42;
 }
-.our-team-card p{
+.our-team-p{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
 }
+/* ==== OUR PORTFOLIO ====*/
+.our-portfolio-title{
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.our-portfolio-h3{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.our-portfolio-p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+
 /* ==== FOOTER ====*/
-footer{
+.footer{
   background: #2e2f42;
 }
 .logo-footer{
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
-}
-.logo-footer-part{
   color: #4d5ae5;
 }
-footer p{
+.logo-footer-part{
+ 
+  color: #f4f4fd;
+}
+.footer-p{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
